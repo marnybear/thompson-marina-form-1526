@@ -1,0 +1,84 @@
+
+body {
+	background-color: #fff;
+	font-size: 1rem;
+	font-family: 'Arial', 'Helvetica', 'Helvetica Neue', sans-serif;
+	line-height: 1.4;
+	text-decoration: none;
+}
+
+
+main {
+	background-color: #fff;
+  	padding: 1em;
+}
+
+fieldset {
+	background-color: #F5F5F5;
+	border: solid;
+	border-color: #DDD;
+}
+
+legend {
+	font-size: 4rem;
+	background-color: #fff;
+	border: solid;
+	border-color: #DDD;
+	padding: 0 0.6em;
+}
+
+label {
+	display: block;
+}
+
+input, textarea {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 22px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+}
+
+.inputArea {
+	padding: 0.6em 0em;
+	width: 100%;
+}
+
+
+#collect {
+	color: #fff;
+    background-color: #6495ED;
+    border-width: 0;
+    border-radius: 0.6em;
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 25rem) {
+
+	body {
+		line-height: 1.8;	
+	}
+	
+	main {
+		max-width: 49rem;
+		margin: 1rem auto;
+	}
+
+	
+	.container {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.inputArea:nth-inputArea(1), .inputArea:nth-inputArea(2){
+		width: 48%;
+	}
+
+	#collect {
+		font-size: 1rem;
+		width: 30%;
+	}
+
+}
